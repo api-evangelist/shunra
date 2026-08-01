@@ -1,7 +1,30 @@
 aid: shunra
-name: shunra
-description: shunra is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shunra.png
+name: Shunra
+description: >-
+  Shunra Software (founded 1997, Philadelphia, Pennsylvania) was an application
+  performance engineering and network virtualization vendor whose products let
+  teams emulate real-world network conditions to test application and mobile
+  performance before deployment. Hewlett-Packard acquired Shunra's network
+  virtualization business in March 2014 to expand its LoadRunner and Performance
+  Center mobile-testing capabilities; the technology moved to HPE's software
+  division and then to Micro Focus in 2016 (now part of OpenText). Shunra no
+  longer operates as an independent company: the shunra.com domain redirects to
+  HPE's domain-redirect 404 handler (nameservers softwaregrp.com) and there is
+  no live product, developer portal, documentation, or public API surface. This
+  profile was surfaced as an Insight Partners portfolio lead but resolves to a
+  defunct/absorbed company with nothing to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/shunra/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +32,21 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct-acquired
+x-acquisition:
+  acquired-by: HP (Hewlett-Packard)
+  date: '2014-03-04'
+  chain: HP (2014) -> HPE -> Micro Focus (2016) -> OpenText
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Network Virtualization
+- Application Performance
+- Performance Testing
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,12 @@ maintainers:
 common:
 - type: Website
   url: http://www.shunra.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: >-
+    Defunct/absorbed company (HP 2014 -> Micro Focus 2016 -> OpenText). Domain
+    redirects to HPE 404 handler; no live host, docs, or API surface. Real
+    WebSearch + curl/dig probes performed; nothing to search/generate/derive.
