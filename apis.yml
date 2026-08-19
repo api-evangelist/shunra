@@ -37,7 +37,7 @@ x-acquisition:
   acquired-by: HP (Hewlett-Packard)
   date: '2014-03-04'
   chain: HP (2014) -> HPE -> Micro Focus (2016) -> OpenText
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
